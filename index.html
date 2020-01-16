@@ -28,6 +28,10 @@
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='thankyou.html';}"></iframe>
         <form action="https://docs.google.com/forms/d/e/1FAIpQLSdPqNkaDKH2oBh5-9npnEpDals5kDOrNrTJu95tGoGeymXpLg/formResponse" method="post"
             target="hidden_iframe" onsubmit="submitted=true;">
+            <div class="form-group">
+                <label for="inputPropertyAddress">Property Address For Which You Are Applying (Plus unit number if you know)</label>
+                <textarea class="form-control" id="inputPropertyAddress" name="entry.140979674" required></textarea>
+            </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputEmail">Email Address</label>
@@ -59,15 +63,15 @@
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="inputPhoneWork">Work Phone Number</label>
-                    <input type="number" class="form-control" id="inputPhoneWork" name="entry.1920237767" required>
+                    <input type="number" class="form-control" id="inputPhoneWork" name="entry.1920237767" placeholder="(415) 555-5555" required>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputPhoneHome">Home Phone Number</label>
-                    <input type="number" class="form-control" id="inputPhoneHome" name="entry.2143597528" required>
+                    <input type="number" class="form-control" id="inputPhoneHome" name="entry.2143597528" placeholder="(415) 555-5555" required>
                 </div>
                 <div class="form-group col-md-4">
                     <label for="inputDOB">Date of Birth</label>
-                    <input type="text" class="form-control" id="inputDOB" name="entry.998365954" required>
+                    <input type="text" class="form-control" id="inputDOB" name="entry.998365954" placeholder="MM/DD/YYYY" required>
                 </div>
             </div>
             <div class="form-row">
@@ -225,7 +229,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputOwnerPhone">Owner/Manager Phone Number</label>
-                    <input type="text" class="form-control" id="inputOwnerPhone" name="entry.58323765" required>
+                    <input type="text" class="form-control" id="inputOwnerPhone" name="entry.58323765" placeholder="(415) 555-5555" required>
                 </div>
             </div>
             <div class="form-group">
@@ -320,7 +324,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputOwnerPhone">Owner/Manager Phone Number</label>
-                    <input type="text" class="form-control" id="inputOwnerPhone" name="entry.1521514228">
+                    <input type="text" class="form-control" id="inputOwnerPhone" name="entry.1521514228" placeholder="(415) 555-5555">
                 </div>
             </div>
             <div class="form-group">
@@ -376,7 +380,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputSupervisorPhone">Supervisor's Phone Number</label>
-                    <input type="text" class="form-control" id="inputSupervisorPhone" name="entry.869624430" required>
+                    <input type="text" class="form-control" id="inputSupervisorPhone" name="entry.869624430" placeholder="(415) 555-5555" required>
                 </div>
             </div>
             <div class="form-group">
@@ -471,7 +475,7 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputPriorSupervisorPhone">Supervisor's Phone Number</label>
-                    <input type="text" class="form-control" id="inputPriorSupervisorPhone" name="entry.2079649138">
+                    <input type="text" class="form-control" id="inputPriorSupervisorPhone" name="entry.2079649138" placeholder="(415) 555-5555">
                 </div>
             </div>
             <div class="form-group">
