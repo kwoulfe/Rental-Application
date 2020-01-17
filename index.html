@@ -11,6 +11,9 @@
         crossorigin="anonymous">
     <link href="peteForm.css" rel="stylesheet" type="text/css">
 
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/2489288bd2.js" crossorigin="anonymous"></script>
+
     <title>Rental Application</title>
 </head>
 
@@ -19,8 +22,8 @@
         <br />
         <h3 class="title">Application To Rent</h3>
         <br />
-        <p>Individual applications required from each occupant 18 years of age or older.</p>
-        <p>
+        <p style="text-align:center">Individual applications required from each occupant 18 years of age or older.</p>
+        <p style="text-align:center">
             <i>(all sections must be completed)</i>
         </p>
         <br />
@@ -142,6 +145,9 @@
                     </select>
                 </div>
             </div>
+            <br />
+            <hr />
+            <br />
             <div class="form-group">
                 <label for="inputAddress">Present Address</label>
                 <textarea class="form-control" id="inputAddress" name="entry.829016936" required></textarea>
@@ -237,6 +243,9 @@
                 <label for="inputReason">Reason for Moving</label>
                 <textarea class="form-control" id="inputReason" name="entry.534505516" required></textarea>
             </div>
+            <br />
+            <hr />
+            <br />
             <div class="form-group">
                 <label for="inputPreviousAddress">Previous Address</label>
                 <textarea class="form-control" id="inputPreviousAddress" name="entry.1482919988"></textarea>
@@ -332,6 +341,9 @@
                 <label for="inputPreviousReason">Reason for Moving</label>
                 <textarea class="form-control" id="inputPreviousReason" name="entry.1486317473"></textarea>
             </div>
+            <br />
+            <hr />
+            <br />
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputOccupant">Proposed Occupant</label>
@@ -360,6 +372,9 @@
                 <label for="inputFurniture">Will You Have Liquid Filled Furniture? Please Describe.</label>
                 <textarea class="form-control" id="inputFurniture" name="entry.297331820" required></textarea>
             </div>
+            <br />
+            <hr />
+            <br />
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="inputOccupation">Present Occupation or Source of Income</label>
@@ -455,6 +470,9 @@
                     <input type="number" class="form-control" id="inputEmployerZip" name="entry.1822244077" required>
                 </div>
             </div>
+            <br />
+            <hr />
+            <br />
             <div class="form-row">
                 <div class="form-group col-md-4">
                     <label for="inputPriorOccupation">Prior Occupation</label>
@@ -550,6 +568,9 @@
                     <input type="number" class="form-control" id="inputPriorEmployerZip" name="entry.1084470555">
                 </div>
             </div>
+            <br />
+            <hr />
+            <br />
             <div class="form-group">
                 <label for="inputIncome">Current Gross Income (per MONTH)</label>
                 <input type="number" class="form-control" id="inputIncome" name="entry.1832524558" required>
@@ -594,7 +615,18 @@
                     <input type="number" class="form-control" id="inputSecondSavings" name="entry.1322689373">
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <br />
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        By checking this box, I certify that the above information is true and correct to the best of my knowledge.
+                        <br>I understand that false information may disqualify me from consideration.
+                    </label>
+                </div>
+            </div>
+            <br />
+            <button type="submit" class="btn btn-outline-dark">Apply Now</button>
         </form>
         <br />
         <br />
