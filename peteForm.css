@@ -31,3 +31,24 @@ hr:before {
     border-width: 0 0 1px 0;
     border-radius: 20px;
 }
+
+/* Thank YouPage */
+
+.thanksContainer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.alert-success hr {
+    border-top-color: black
+}
+
+ol li {
+    margin-bottom: 1rem;
+}
+
+.alert-heading {
+    text-align: center;
+}
